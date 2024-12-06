@@ -1,0 +1,31 @@
+# ===========================================
+# Test Configurations for the Dota 2 API
+# ===========================================
+
+# Test Match ID
+match_id_test: 8054861702 # Blast Pro Series
+
+# Test Player ID
+player_id_test: 175700232 # chraos
+
+
+
+# ===========================================
+# Player Information Retreival Configuration
+# ===========================================
+
+endpoints:
+  player: true  # general player information
+  wl: false # win/loss count
+  recentMatches: true # recent matches
+  matches: true # matches
+  heroes: true # heroes
+  peers: true # peers
+  pros: false # professional players
+  totals: false # total counts of stats
+  counts: false # counts of stats
+  histograms: false # histograms of stats
+  wardmap: false # wardmap of all chat
+  wordcloud: false # wordcloud of all chat
+  ratings: false # historical mmrs
+  rankings: true # player ranking history
