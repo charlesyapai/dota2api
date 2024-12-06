@@ -2,7 +2,7 @@
 
 # select = ["E4", "E7", "E9", "F", "Q", "G"] # Standard Linters
 select = ["ALL"]
-ignore = ["G", "EM", "D", "PTH", "PTH118", "T201", "F821", "S113", "TRY", "ERA"]
+ignore = ["G", "EM", "D", "PTH", "PTH118", "T201", "F821", "S113", "TRY", "ERA", "PT"]
 
 # Exclude a variety of commonly ignored directories.
 exclude = [
